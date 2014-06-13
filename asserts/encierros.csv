@@ -1,271 +1,271 @@
 ﻿Fecha;Ganaderia;Duracion;Heridos_asta;Traumatismos;Atendidos;Piso
-07/07/80;Conde de la Corte;4.25;1;2;NA;Seco
-08/07/80;Cesar Moreno;3.25;;5;NA;Seco
-09/07/80;Fermin Bohorquez;6.43;2;3;NA;Seco
-12/07/80;Marques de Domecq;2.58;;3;NA;Seco
-13/07/80;Guardiola Fantoni;10.55;4;4;NA;Seco
-14/07/80;Albaserrada;6.09;2;3;NA;Seco
-07/07/81;Pablo Romero;2.5;;8;NA;Seco
-08/07/81;Julio Aguirre;4.07;1;1;NA;Seco
-09/07/81;Fermin Bohorquez;4.58;2;;NA;Seco
-11/07/81;Miura;3.44;;1;NA;Seco
-12/07/81;Albaserrada;5.38;;;NA;Seco
-13/07/81;Conde de la Maza;7;;1;NA;Seco
-14/07/81;Marques de Domecq;3.2;1;6;NA;Seco
-07/07/82;Conde de la Corte;3.41;1;4;NA;Seco
-08/07/82;Albaserrada;3.32;;1;NA;Seco
-09/07/82;Samuel Flores;3.04;;2;NA;Seco
-10/07/82;Hernandez Barrera;7.37;;3;NA;Seco
-11/07/82;Pablo Romero;2.28;1;1;NA;Seco
-13/07/82;Marques de Domecq;2.48;;;NA;Seco
-14/07/82;Miura;5.32;;5;NA;Seco
-07/07/83;Pablo Romero;2.5;;2;13;Seco
+07/07/80;Conde de la Corte;4.25;1;2;0;Seco
+08/07/80;Cesar Moreno;3.25;0;5;0;Seco
+09/07/80;Fermin Bohorquez;6.43;2;3;0;Seco
+12/07/80;Marques de Domecq;2.58;0;3;0;Seco
+13/07/80;Guardiola Fantoni;10.55;4;4;0;Seco
+14/07/80;Albaserrada;6.09;2;3;0;Seco
+07/07/81;Pablo Romero;2.5;0;8;0;Seco
+08/07/81;Julio Aguirre;4.07;1;1;0;Seco
+09/07/81;Fermin Bohorquez;4.58;2;0;0;Seco
+11/07/81;Miura;3.44;0;1;0;Seco
+12/07/81;Albaserrada;5.38;0;0;0;Seco
+13/07/81;Conde de la Maza;7;0;1;0;Seco
+14/07/81;Marques de Domecq;3.2;1;6;0;Seco
+07/07/82;Conde de la Corte;3.41;1;4;0;Seco
+08/07/82;Albaserrada;3.32;0;1;0;Seco
+09/07/82;Samuel Flores;3.04;0;2;0;Seco
+10/07/82;Hernandez Barrera;7.37;0;3;0;Seco
+11/07/82;Pablo Romero;2.28;1;1;0;Seco
+13/07/82;Marques de Domecq;2.48;0;0;0;Seco
+14/07/82;Miura;5.32;0;5;0;Seco
+07/07/83;Pablo Romero;2.5;0;2;13;Seco
 08/07/83;Julio Aguirre;3.5;3;3;35;Seco
 09/07/83;Albaserrada;3.38;1;3;35;Seco
-10/07/83;Miura;2.3;;4;NA;Seco
-11/07/83;Los Guateles;2.48;;4;27;Seco
-12/07/83;Marques de Domecq;2.37;;4;40;Seco
-13/07/83;Celestino Cuadri;3.5;;6;18;Seco
-14/07/83;Jandilla;2.3;;6;46;Seco
-07/07/84;Alonso Moreno;2.28;;4;32;Seco
-08/07/84;Pablo Romero;2.48;;2;21;Seco
-09/07/84;Guardiola Fantoni;3.1;;8;25;Seco
-10/07/84;Osborne;5.2;2;;13;Seco
-11/07/84;Fermin Bohorquez;2.46;;2;24;Seco
-12/07/84;Marques de Domecq;3;;5;NA;Seco
-13/07/84;Martinez Uranga;2.51;;4;NA;Seco
-14/07/84;Miura;2.53;;6;NA;Seco
+10/07/83;Miura;2.3;0;4;0;Seco
+11/07/83;Los Guateles;2.48;0;4;27;Seco
+12/07/83;Marques de Domecq;2.37;0;4;40;Seco
+13/07/83;Celestino Cuadri;3.5;0;6;18;Seco
+14/07/83;Jandilla;2.3;0;6;46;Seco
+07/07/84;Alonso Moreno;2.28;0;4;32;Seco
+08/07/84;Pablo Romero;2.48;0;2;21;Seco
+09/07/84;Guardiola Fantoni;3.1;0;8;25;Seco
+10/07/84;Osborne;5.2;2;0;13;Seco
+11/07/84;Fermin Bohorquez;2.46;0;2;24;Seco
+12/07/84;Marques de Domecq;3;0;5;0;Seco
+13/07/84;Martinez Uranga;2.51;0;4;0;Seco
+14/07/84;Miura;2.53;0;6;0;Seco
 07/07/85;Pablo Romero;3.12;1;5;32;Seco
-08/07/85;Guardiola Fantoni;2.44;;1;9;Seco
+08/07/85;Guardiola Fantoni;2.44;0;1;9;Seco
 09/07/85;Osborne;3.22;1;8;22;Seco
-10/07/85;Fermin Bohorquez;2.42;;5;9;Seco
-11/07/85;Marques de Domecq;7.24;4;7;NA;Seco
-12/07/85;Cebada Gago;3.1;;6;NA;Seco
-13/07/85;Hernandez Barrera;7.5;3;11;NA;Seco
-14/07/85;Miura;2.56;;4;32;Seco
-07/07/86;Dominguez Camacho;2.35;;4;9;Seco
-08/07/86;Guardiola Fantoni;4.08;;1;22;Seco
-09/07/86;Osborne;4.41;;4;9;Seco
+10/07/85;Fermin Bohorquez;2.42;0;5;9;Seco
+11/07/85;Marques de Domecq;7.24;4;7;0;Seco
+12/07/85;Cebada Gago;3.1;0;6;0;Seco
+13/07/85;Hernandez Barrera;7.5;3;11;0;Seco
+14/07/85;Miura;2.56;0;4;32;Seco
+07/07/86;Dominguez Camacho;2.35;0;4;9;Seco
+08/07/86;Guardiola Fantoni;4.08;0;1;22;Seco
+09/07/86;Osborne;4.41;0;4;9;Seco
 10/07/86;Cebada Gago;3.04;4;2;26;Seco
-11/07/86;Fermin Bohorquez;2.29;;1;17;Seco
-13/07/86;Murteira;2.4;;4;NA;Seco
-14/07/86;Miura;2.33;;6;NA;Seco
-07/07/87;Arauz de Robles;2.37;;4;NA;Seco
-08/07/87;Guardiola Fantoni;4.37;4;6;NA;Seco
-09/07/87;Cebada Gago;4.2;;5;37;Seco
-10/07/87;Osborne;5.27;2;;NA;Seco
-11/07/87;Pablo Romero;3.32;;3;NA;Seco
-12/07/87;Murteira;2.25;;1;NA;Seco
+11/07/86;Fermin Bohorquez;2.29;0;1;17;Seco
+13/07/86;Murteira;2.4;0;4;0;Seco
+14/07/86;Miura;2.33;0;6;0;Seco
+07/07/87;Arauz de Robles;2.37;0;4;0;Seco
+08/07/87;Guardiola Fantoni;4.37;4;6;0;Seco
+09/07/87;Cebada Gago;4.2;0;5;37;Seco
+10/07/87;Osborne;5.27;2;0;0;Seco
+11/07/87;Pablo Romero;3.32;0;3;0;Seco
+12/07/87;Murteira;2.25;0;1;0;Seco
 13/07/87;Marques de Domecq;4.16;1;2;32;Seco
-14/07/87;Miura;3.39;;3;23;Seco
-07/07/88;Torrestrella;3.33;;1;25;Seco
+14/07/87;Miura;3.39;0;3;23;Seco
+07/07/88;Torrestrella;3.33;0;1;25;Seco
 08/07/88;Guardiola Fantoni;3.2;1;2;17;Seco
-09/07/88;Carmen Camacho;6.55;;5;28;Seco
-10/07/88;Pablo Romero;2.48;;;17;Seco
-11/07/88;Murteira;3.04;;1;24;Seco
+09/07/88;Carmen Camacho;6.55;0;5;28;Seco
+10/07/88;Pablo Romero;2.48;0;0;17;Seco
+11/07/88;Murteira;3.04;0;1;24;Seco
 12/07/88;Cebada Gago;8.08;6;7;25;Seco
-13/07/88;Atanasio Fernandez;3.04;;3;19;Seco
-14/07/88;Miura;3.34;;3;20;Seco
-07/07/89;Celestino Cuadri;3.37;;2;18;Seco
+13/07/88;Atanasio Fernandez;3.04;0;3;19;Seco
+14/07/88;Miura;3.34;0;3;20;Seco
+07/07/89;Celestino Cuadri;3.37;0;2;18;Seco
 08/07/89;Murteira;3.17;1;2;44;Seco
-09/07/89;Pablo Romero;3.01;;4;33;Seco
+09/07/89;Pablo Romero;3.01;0;4;33;Seco
 10/07/89;Guardiola Fantoni;3.23;2;4;55;Seco
 11/07/89;Marques de Domecq;4.41;2;5;15;Seco
-12/07/89;Cebada Gago;4.06;;1;26;Seco
-13/07/89;Baltasar Iban;2.19;;3;28;Seco
-14/07/89;Miura;2.19;;2;17;Seco
+12/07/89;Cebada Gago;4.06;0;1;26;Seco
+13/07/89;Baltasar Iban;2.19;0;3;28;Seco
+14/07/89;Miura;2.19;0;2;17;Seco
 07/07/90;Marques de Domecq;8.16;1;4;57;Seco
 08/07/90;Celestino Cuadri;4.41;4;8;33;Seco
-09/07/90;Guardiola Fantoni;3.18;;5;36;Seco
-10/07/90;Cebada Gago;4.25;;2;24;Seco
+09/07/90;Guardiola Fantoni;3.18;0;5;36;Seco
+10/07/90;Cebada Gago;4.25;0;2;24;Seco
 11/07/90;Atanasio Fernandez;2.26;1;5;31;Seco
-12/07/90;Miura;2.44;;2;27;Seco
-13/07/90;Sepulveda;2.23;;6;31;Seco
-14/07/90;Conde de la Corte;2.38;;6;42;Seco
-07/07/91;Conde de la Corte;2.46;;1;21;Seco
+12/07/90;Miura;2.44;0;2;27;Seco
+13/07/90;Sepulveda;2.23;0;6;31;Seco
+14/07/90;Conde de la Corte;2.38;0;6;42;Seco
+07/07/91;Conde de la Corte;2.46;0;1;21;Seco
 08/07/91;Guardiola Fantoni;5.36;2;5;38;Seco
-10/07/91;Albaserrada;3.23;;4;34;Seco
-11/07/91;Osborne;3.01;;5;27;Seco
+10/07/91;Albaserrada;3.23;0;4;34;Seco
+11/07/91;Osborne;3.01;0;5;27;Seco
 12/07/91;Sepulveda;3.1;2;12;67;Seco
 13/07/91;Marques de Domecq;5.17;3;4;85;Seco
-14/07/91;Miura;3.03;;5;60;Seco
-07/07/92;Ortega Sanchez;3.45;;2;26;Seco
+14/07/91;Miura;3.03;0;5;60;Seco
+07/07/92;Ortega Sanchez;3.45;0;2;26;Seco
 08/07/92;Cebada Gago;7.06;2;4;39;Seco
-09/07/92;Guardiola Fantoni;2.25;;3;18;Seco
+09/07/92;Guardiola Fantoni;2.25;0;3;18;Seco
 11/07/92;Osborne;4.17;2;9;38;Seco
-12/07/92;Miura;2.59;;4;32;Seco
-13/07/92;Sepulveda;2.36;;3;36;Seco
+12/07/92;Miura;2.59;0;4;32;Seco
+13/07/92;Sepulveda;2.36;0;3;36;Seco
 14/07/92;Marques de Domecq;3.04;1;4;31;Seco
 07/07/93;Cebada Gago;4.04;3;10;47;Seco
-08/07/93;Guardiola Fantoni;2.19;;4;25;Seco
-09/07/93;Marques de Domecq;2.54;;3;47;Seco
-10/07/93;Miura;3.12;;12;83;Seco
+08/07/93;Guardiola Fantoni;2.19;0;4;25;Seco
+09/07/93;Marques de Domecq;2.54;0;3;47;Seco
+10/07/93;Miura;3.12;0;12;83;Seco
 11/07/93;Pablo Romero;4.22;2;12;77;Seco
 12/07/93;Perez Tabernero;3.03;2;3;52;Seco
 13/07/93;Torrealta;2.37;1;4;53;Seco
-14/07/93;Conde de la Corte;2.23;;4;73;Seco
+14/07/93;Conde de la Corte;2.23;0;4;73;Seco
 07/07/94;Cebada Gago;4.04;3;2;36;Seco
-08/07/94;Conde de la Corte;3.22;;7;47;Seco
-09/07/94;Miura;2.27;;8;94;Seco
+08/07/94;Conde de la Corte;3.22;0;7;47;Seco
+09/07/94;Miura;2.27;0;8;94;Seco
 10/07/94;Pablo Romero;2.59;2;2;27;Seco
 11/07/94;Benitez Cubero;6.12;1;5;38;Seco
 12/07/94;Torrestrella;3.42;6;5;28;Seco
-13/07/94;Marques de Domecq;2.46;;4;30;Seco
-14/07/94;Osborne;3.23;;3;27;Seco
-07/07/95;Celestino Cuadri;2.42;;7;31;Seco
-08/07/95;Miura;3.31;;5;29;Seco
+13/07/94;Marques de Domecq;2.46;0;4;30;Seco
+14/07/94;Osborne;3.23;0;3;27;Seco
+07/07/95;Celestino Cuadri;2.42;0;7;31;Seco
+08/07/95;Miura;3.31;0;5;29;Seco
 09/07/95;Dolores Aguirre;3.3;1;5;43;Seco
 10/07/95;Cebada Gago;2.44;2;7;18;Seco
-11/07/95;Sepulveda;3.4;;3;26;Seco
+11/07/95;Sepulveda;3.4;0;3;26;Seco
 12/07/95;Nuñez del Cuvillo;3.32;1;4;41;Seco
 13/07/95;Torrestrella;2.23;1;3;27;Seco
-14/07/95;El Torreon;2.5;;4;28;Seco
+14/07/95;El Torreon;2.5;0;4;28;Seco
 07/07/96;Miura;2.36;1;6;28;Seco
-09/07/96;Alcurrucen;2.31;;7;25;Seco
+09/07/96;Alcurrucen;2.31;0;7;25;Seco
 10/07/96;El Sierro;3.11;1;8;25;Seco
-11/07/96;La Ermita;3.38;;3;21;Seco
+11/07/96;La Ermita;3.38;0;3;21;Seco
 12/07/96;Torrestrella;2.21;2;3;24;Seco
 13/07/96;Cebada Gago;3.04;1;4;18;Seco
 14/07/96;Marques de Domecq;4.28;1;3;19;Seco
 07/07/97;Conde de la Corte;2.17;1;4;13;Seco
 08/07/97;Guardiola Fantoni;2.48;1;4;25;Seco
 10/07/97;Torrestrella;2.15;1;7;24;Seco
-11/07/97;Jandilla;3.17;;8;32;Seco
-12/07/97;Hermanos Astolfi;4.3;;5;43;Seco
+11/07/97;Jandilla;3.17;0;8;32;Seco
+12/07/97;Hermanos Astolfi;4.3;0;5;43;Seco
 14/07/97;El Pilar;3.2;1;2;24;Seco
 07/07/98;Jandilla;2.19;1;6;25;Seco
-08/07/98;Conde de la Corte;2.12;;2;21;Seco
-09/07/98;Guardiola Fantoni;2.38;;3;30;Seco
+08/07/98;Conde de la Corte;2.12;0;2;21;Seco
+09/07/98;Guardiola Fantoni;2.38;0;3;30;Seco
 10/07/98;Cebada Gago;2.13;2;2;19;Seco
-11/07/98;Peñajara;2.54;;6;24;Seco
-12/07/98;Miura;2.5;;1;31;Seco
-13/07/98;Marques de Domecq;2.26;;3;28;Seco
-14/07/98;Torrealta;2.13;;1;29;Seco
-07/07/99;Marques de Domecq;2.38;;9;23;Seco
-08/07/99;Guardiola Fantoni;3;;1;27;Seco
+11/07/98;Peñajara;2.54;0;6;24;Seco
+12/07/98;Miura;2.5;0;1;31;Seco
+13/07/98;Marques de Domecq;2.26;0;3;28;Seco
+14/07/98;Torrealta;2.13;0;1;29;Seco
+07/07/99;Marques de Domecq;2.38;0;9;23;Seco
+08/07/99;Guardiola Fantoni;3;0;1;27;Seco
 09/07/99;Cebada Gago;4.3;7;4;29;Seco
-10/07/99;Adolfo Martín;2.46;;9;57;Seco
-11/07/99;Miura;2.21;;3;32;Seco
+10/07/99;Adolfo Martín;2.46;0;9;57;Seco
+11/07/99;Miura;2.21;0;3;32;Seco
 13/07/99;Guadalest;7.08;1;6;40;Seco
-14/07/99;Gutierrez Lorenzo;2.26;;2;22;Seco
-07/07/00;Cebada Gago;2.27;;2;17;Seco
+14/07/99;Gutierrez Lorenzo;2.26;0;2;22;Seco
+07/07/00;Cebada Gago;2.27;0;2;17;Seco
 08/07/00;Adolfo Martín;5.12;1;5;27;Seco
-09/07/00;Partido de Resina;2.33;;7;40;Seco
+09/07/00;Partido de Resina;2.33;0;7;40;Seco
 10/07/00;Torrestrella;5.1;3;3;21;Seco
 13/07/00;Gutierrez Lorenzo;5.58;3;5;24;Seco
-14/07/00;Miura;2.38;;4;22;Seco
+14/07/00;Miura;2.38;0;4;22;Seco
 07/07/01;Torrestrella;3.48;6;3;31;Seco
-08/07/01;Millares;5.43;;3;37;Seco
-10/07/01;Jandilla;2.42;;2;44;Seco
-12/07/01;Marques de Domecq;2.16;;5;29;Seco
+08/07/01;Millares;5.43;0;3;37;Seco
+10/07/01;Jandilla;2.42;0;2;44;Seco
+12/07/01;Marques de Domecq;2.16;0;5;29;Seco
 13/07/01;Gutierrez Lorenzo;2.57;2;5;37;Seco
 14/07/01;Miura;4.12;1;6;44;Seco
 07/07/02;Marques de Domecq;7.01;3;3;12;Seco
 08/07/02;Cebada Gago;2.48;1;2;14;Seco
 09/07/02;Santiago Domecq Bohorquez;11.57;5;3;17;Seco
-10/07/02;Gutierrez Lorenzo;6.22;;1;22;Seco
+10/07/02;Gutierrez Lorenzo;6.22;0;1;22;Seco
 12/07/02;Dolores Aguirre;3.3;1;5;34;Seco
-13/07/02;Torrestrella;3.3;;2;19;Seco
-07/07/03;Alcurrucen;2.46;;4;20;Seco
+13/07/02;Torrestrella;3.3;0;2;19;Seco
+07/07/03;Alcurrucen;2.46;0;4;20;Seco
 08/07/03;Cebada Gago;4.41;3;3;31;Seco
-09/07/03;Juan Pedro Domecq;2.3;;5;17;Seco
+09/07/03;Juan Pedro Domecq;2.3;0;5;17;Seco
 10/07/03;Jandilla;4.28;3;9;36;Seco
-11/07/03;Adolfo Martín;2.41;;9;27;Seco
+11/07/03;Adolfo Martín;2.41;0;9;27;Seco
 12/07/03;Dolores Aguirre;3.04;2;5;47;Seco
 13/07/03;Miura;2.53;1;7;39;Seco
 14/07/03;Torrestrella;4.09;2;4;19;Seco
-08/07/04;Cebada Gago;2.28;;6;18;Seco
+08/07/04;Cebada Gago;2.28;0;6;18;Seco
 09/07/04;Nuñez del Cuvillo;4.41;4;5;51;Seco
 12/07/04;Jandilla;3.14;8;10;56;Seco
-13/07/04;Marques de Domecq;2.3;;3;20;Seco
+13/07/04;Marques de Domecq;2.3;0;3;20;Seco
 14/07/04;Juan Pedro Domecq;2.35;1;3;17;Seco
-07/07/05;Santiago Domecq Bohorquez;2.52;;2;15;Seco
-08/07/05;Cebada Gago;2.3;;2;12;Seco
+07/07/05;Santiago Domecq Bohorquez;2.52;0;2;15;Seco
+08/07/05;Cebada Gago;2.3;0;2;12;Seco
 09/07/05;Dolores Aguirre;3;4;2;31;Seco
-10/07/05;Miura;2.51;;4;42;Seco
+10/07/05;Miura;2.51;0;4;42;Seco
 11/07/05;Jandilla;5.33;4;7;50;Seco
-12/07/05;Juan Pedro Domecq;2.51;;2;27;Seco
-13/07/05;Fuente Ymbro;2.34;;4;37;Seco
-14/07/05;Victorino Martín;2.15;;2;24;Seco
+12/07/05;Juan Pedro Domecq;2.51;0;2;27;Seco
+13/07/05;Fuente Ymbro;2.34;0;4;37;Seco
+14/07/05;Victorino Martín;2.15;0;2;24;Seco
 07/07/06;Marques de Domecq;3.23;2;5;24;Seco
-08/07/06;Dolores Aguirre;3.22;;1;25;Seco
+08/07/06;Dolores Aguirre;3.22;0;1;25;Seco
 09/07/06;Miura;2.13;1;1;24;Seco
 10/07/06;Cebada Gago;2.32;1;1;12;Seco
-11/07/06;Osborne;2.15;;1;16;Seco
-12/07/06;Alcurrucen;2.19;;2;22;Seco
+11/07/06;Osborne;2.15;0;1;16;Seco
+12/07/06;Alcurrucen;2.19;0;2;22;Seco
 13/07/06;Fuente Ymbro;2.3;1;5;23;Seco
-14/07/06;Victorino Martín;2.21;;6;27;Seco
-07/07/07;Dolores Aguirre;2.4;1;3;NA;Seco
+14/07/06;Victorino Martín;2.21;0;6;27;Seco
+07/07/07;Dolores Aguirre;2.4;1;3;0;Seco
 08/07/07;Miura;3.36;1;8;76;Seco
-09/07/07;Fuente Ymbro;2.46;;7;47;Seco
-10/07/07;Cebada Gago;2.3;;4;44;Seco
+09/07/07;Fuente Ymbro;2.46;0;7;47;Seco
+10/07/07;Cebada Gago;2.3;0;4;44;Seco
 11/07/07;Jandilla;3;1;5;18;Seco
 12/07/07;Marques de Domecq;6.1;7;6;41;Seco
-13/07/07;Antonio Bañuelos;2.42;;4;57;Seco
+13/07/07;Antonio Bañuelos;2.42;0;4;57;Seco
 14/07/07;Victorino Martín;2.5;1;4;17;Seco
-07/07/08;Conde de la Corte;4.2;;13;64;Seco
+07/07/08;Conde de la Corte;4.2;0;13;64;Seco
 08/07/08;Cebada Gago;2.23;1;4;29;Seco
 09/07/08;Fuente Ymbro;3.42;1;1;26;Seco
 10/07/08;El Ventorrillo;2.41;1;6;48;Seco
-11/07/08;Jandilla;2.36;;1;31;Seco
+11/07/08;Jandilla;2.36;0;1;31;Seco
 12/07/08;Dolores Aguirre;3.02;1;4;33;Seco
-13/07/08;Miura;2.52;;8;52;Seco
-14/07/08;Nuñez del Cuvillo;2.37;;5;23;Seco
-07/07/09;Alcurrucen;2.3;;4;21;Seco
+13/07/08;Miura;2.52;0;8;52;Seco
+14/07/08;Nuñez del Cuvillo;2.37;0;5;23;Seco
+07/07/09;Alcurrucen;2.3;0;4;21;Seco
 08/07/09;Cebada Gago;2.35;1;2;26;Seco
-09/07/09;El Ventorrillo;2.21;;7;52;Seco
+09/07/09;El Ventorrillo;2.21;0;7;52;Seco
 10/07/09;Jandilla;4.28;4;8;61;Seco
-11/07/09;Dolores Aguirre;2.52;;4;37;Seco
+11/07/09;Dolores Aguirre;2.52;0;4;37;Seco
 12/07/09;Miura;5;5;6;52;Seco
-13/07/09;Fuente Ymbro;2.23;;3;33;Seco
-14/07/09;Nuñez del Cuvillo;2.21;;4;34;Seco
-07/07/10;Peñajara;2.23;;2;26;Seco
+13/07/09;Fuente Ymbro;2.23;0;3;33;Seco
+14/07/09;Nuñez del Cuvillo;2.21;0;4;34;Seco
+07/07/10;Peñajara;2.23;0;2;26;Seco
 08/07/10;Cebada Gago;3.3;2;5;29;Seco
 09/07/10;Fuente Ymbro;6.23;1;2;40;Seco
-10/07/10;Dolores Aguirre;2.53;;4;27;Seco
+10/07/10;Dolores Aguirre;2.53;0;4;27;Seco
 11/07/10;Miura;3.02;1;3;33;Seco
-12/07/10;Victoriano del Rio;2.17;;3;20;Seco
+12/07/10;Victoriano del Rio;2.17;0;3;20;Seco
 13/07/10;El Pilar;2.14;1;2;31;Seco
 14/07/10;Jandilla;4.22;4;7;33;Seco
-07/07/11;Torrestrella;2.3;;4;NA;Seco
-08/07/11;Cebada Gago;3.1;2;5;NA;Seco
-09/07/11;Dolores Aguirre;2.56;1;2;NA;Seco
-10/07/11;Miura;2.29;;10;NA;Seco
-11/07/11;Fuente Ymbro;2.33;;1;NA;Seco
-12/07/11;Victoriano del Rio;2.16;2;6;NA;Seco
-13/07/11;El Pilar;2.11;;7;NA;Seco
-14/07/11;Nuñez del Cuvillo;2.21;;3;NA;Seco
-08/07/12;Miura;2.27;;2;NA;Seco
-09/07/12;Cebada Gago;3.37;3;4;NA;Seco
-10/07/12;El Pilar;2.23;;5;NA;Seco
-11/07/12;Fuente Ymbro;3.12;;2;NA;Seco
-12/07/12;Victoriano del Rio;2.21;;6;NA;Seco
-13/07/12;Juan Pedro Domecq;2.23;;6;NA;Seco
-14/07/12;Torrehandilla;2.33;;4;NA;Seco
-07/07/13;Alcurrucen;4.06;;4;NA;Seco
-08/07/13;Dolores Aguirre;2.27;;4;NA;Seco
-09/07/13;Valdefresno;2.27;;2;NA;Seco
-10/07/13;Victoriano del Rio;2.14;;3;NA;Seco
-11/07/13;Torrestrella;2.48;;2;NA;Seco
-12/07/13;El Pilar;4.57;3;4;NA;Seco
-13/07/13;Fuente Ymbro;4.16;2;21;NA;Seco
-10/07/80;Miura;3.46;;3;NA;Mojado
-11/07/80;Dolores Aguirre;4.58;;;NA;Mojado
-10/07/81;Conde de la Corte;4.24;1;4;NA;Mojado
-12/07/82;Ortega Sanchez;3.57;1;8;NA;Mojado
-12/07/86;Marques de Domecq;7.58;2;4;NA;Mojado
-09/07/91;Cebada Gago;5.06;;2;11;Mojado
-10/07/92;Conde de la Corte;3.05;;2;22;Mojado
-08/07/96;Guardiola Fantoni;5.03;;1;21;Mojado
+07/07/11;Torrestrella;2.3;0;4;0;Seco
+08/07/11;Cebada Gago;3.1;2;5;0;Seco
+09/07/11;Dolores Aguirre;2.56;1;2;0;Seco
+10/07/11;Miura;2.29;0;10;0;Seco
+11/07/11;Fuente Ymbro;2.33;0;1;0;Seco
+12/07/11;Victoriano del Rio;2.16;2;6;0;Seco
+13/07/11;El Pilar;2.11;0;7;0;Seco
+14/07/11;Nuñez del Cuvillo;2.21;0;3;0;Seco
+08/07/12;Miura;2.27;0;2;0;Seco
+09/07/12;Cebada Gago;3.37;3;4;0;Seco
+10/07/12;El Pilar;2.23;0;5;0;Seco
+11/07/12;Fuente Ymbro;3.12;0;2;0;Seco
+12/07/12;Victoriano del Rio;2.21;0;6;0;Seco
+13/07/12;Juan Pedro Domecq;2.23;0;6;0;Seco
+14/07/12;Torrehandilla;2.33;0;4;0;Seco
+07/07/13;Alcurrucen;4.06;0;4;0;Seco
+08/07/13;Dolores Aguirre;2.27;0;4;0;Seco
+09/07/13;Valdefresno;2.27;0;2;0;Seco
+10/07/13;Victoriano del Rio;2.14;0;3;0;Seco
+11/07/13;Torrestrella;2.48;0;2;0;Seco
+12/07/13;El Pilar;4.57;3;4;0;Seco
+13/07/13;Fuente Ymbro;4.16;2;21;0;Seco
+10/07/80;Miura;3.46;0;3;0;Mojado
+11/07/80;Dolores Aguirre;4.58;0;0;0;Mojado
+10/07/81;Conde de la Corte;4.24;1;4;0;Mojado
+12/07/82;Ortega Sanchez;3.57;1;8;0;Mojado
+12/07/86;Marques de Domecq;7.58;2;4;0;Mojado
+09/07/91;Cebada Gago;5.06;0;2;11;Mojado
+10/07/92;Conde de la Corte;3.05;0;2;22;Mojado
+08/07/96;Guardiola Fantoni;5.03;0;1;21;Mojado
 09/07/97;Maria Luisa Dominguez;6.16;1;2;14;Mojado
-12/07/99;Jandilla;2.55;;3;19;Mojado
-11/07/00;Jandilla;3.49;;3;12;Mojado
+12/07/99;Jandilla;2.55;0;3;19;Mojado
+11/07/00;Jandilla;3.49;0;3;12;Mojado
 12/07/00;Nuñez del Cuvillo;3.44;2;8;29;Mojado
 09/07/01;Cebada Gago;3.02;2;1;21;Mojado
 11/07/01;Santiago Domecq Bohorquez;3.58;1;4;19;Mojado
 11/07/02;Jandilla;2.52;2;6;40;Mojado
-14/07/02;Miura;2.5;;5;27;Mojado
-07/07/04;Torrestrella;2.4;;8;35;Mojado
+14/07/02;Miura;2.5;0;5;27;Mojado
+07/07/04;Torrestrella;2.4;0;8;35;Mojado
 10/07/04;Dolores Aguirre;2.56;2;4;28;Mojado
 11/07/04;Miura;2.23;1;2;25;Mojado
-07/07/12;Dolores Aguirre;2.53;1;5;NA;Mojado
+07/07/12;Dolores Aguirre;2.53;1;5;0;Mojado
