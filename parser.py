@@ -39,9 +39,11 @@ with open('asserts/encierros.csv') as f:
         Atendidos = int(line[5])
         Piso = line[6]
 
-        year = int(fecha.split('/')[2])
-        #if year >= 83:
-        #    break
+        year = fecha.split('/')[2]
+        if int(year) >= 15:
+            year = "19" + year
+        else:
+            year = "20" + year
 
         if year in mDict:
             mDict[year]['Heridos_asta'] += Heridos_asta
@@ -72,7 +74,7 @@ with open('asserts/encierros.csv') as f:
 
     mList = [Atendidos, Traumatismos, Heridos_asta]
 
-    with open('encierros.json', 'wb') as fp:
+    with open('asserts/encierros.json', 'wb') as fp:
         json.dump(mList, fp, sort_keys=True, indent=4, separators=(',', ': '))
 
 
