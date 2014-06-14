@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<link href="src/nv.d3.css" rel="stylesheet" type="text/css">
+
+<style>
+
+body {
+  overflow-y:scroll;
+}
+
+text {
+  font: 12px sans-serif;
+}
+
+#chart1, #chart2 {
+  height: 500px;
+}
+
+</style>
+<body>
+
+  <div>
+    <svg id="chart1"></svg>
+  </div>
+
+  <div>
+    <!--<svg id="chart2"></svg>-->
+  </div>
+
+<script src="lib/d3.v2.js"></script>
+<script src="nv.d3.js"></script>
+<script src="src/utils.js"></script>
+<script src="src/models/axis.js"></script>
+<script src="src/tooltip.js"></script>
+<script src="src/models/legend.js"></script>
+<script src="src/models/axis.js"></script>
+<script src="src/models/scatter.js"></script>
+<script src="src/models/stackedArea.js"></script>
+<script src="src/models/stackedAreaChart.js"></script>
+<script>
+
+/*
+.map(function(series) {
+  series.values = series.values.map(function(d) {
+    return { x: d[0], y: d[1] }
+  });
+  return series;
+});
+*/
+
+//an example of harmonizing colors between visualizations
+//observe that Consumer Discretionary and Consumer Staples have 
+//been flipped in the second chart
+var colors = d3.scale.category20();
+keyColor = function(d, i) {return colors(d.key)};
+
+d3.json("asserts/encierros_blood.json",function(data) {
+  var chart;
+  nv.addGraph(function() {
+    chart = nv.models.stackedAreaChart()
+                  .x(function(d) { return d[0] })
+                  .y(function(d) { return d[1] })
+                  .color(keyColor)
+                  //.clipEdge(true);
+  
+  // chart.stacked.scatter.clipVoronoi(false);
+  
+    chart.xAxis
+        .tickFormat(function(d) { return d3.time.format('%x')(new Date(d)) });
+  
+    chart.yAxis
+        .tickFormat(d3.format(',.2f'));
+  
+    d3.select('#chart1')
+      .datum(data)
+        .transition().duration(500).call(chart);
+  
+    nv.utils.windowResize(chart.update);
+  
+    chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+  
+    return chart;
+  });
+  
+  nv.addGraph(function() {
+    var chart = nv.models.stackedAreaChart()
+                  .x(function(d) { return d[0] })
+                  .y(function(d) { return d[1] })
+                  .color(keyColor);
+                  //.clipEdge(true);
+  
+    chart.xAxis
+        .tickFormat(function(d) { return d3.time.format('%x')(new Date(d)) });
+  
+    chart.yAxis
+        .tickFormat(d3.format(',.2f'));
+  
+    d3.select('#chart2')
+      .datum(data)
+        //.transition().duration(500)
+        .call(chart);
+  
+    nv.utils.windowResize(chart.update);
+  
+    return chart;
+  });
+});
+
+
+</script>
