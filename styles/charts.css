@@ -1,0 +1,284 @@
+div.chart {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #2B2D31;
+}
+
+div.chart ul {
+    list-style-type: none;
+    margin: 0px 0;
+    padding: 0;
+}
+
+div.chart li {
+    margin: 10px 0;
+    padding: 0;
+}
+
+div#map {
+    height: 550px;
+    width: auto;
+    margin: 0 0 1px 0;
+    position: relative;
+}
+
+.axis path,.axis line {
+    fill: none;
+    stroke: #7B7B7B;
+    shape-rendering: crispEdges;
+}
+
+.oecd line {
+    fill: none;
+    stroke: #7B7B7B;
+    stroke-dasharray: 7,2;
+    shape-rendering: crispEdges;
+}
+
+.compLine {
+    fill: none;
+    stroke: #D1D1D1;
+    stroke-dasharray: 7,2;
+    shape-rendering: crispEdges;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.default {
+    color: rgb(229, 171, 169);
+}
+
+/*education chart*/
+div#education {
+    width: 620px;
+    margin: 35px auto;
+}
+
+div#eduControls {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+div#eduControls span {
+    margin-right: 16px;
+}
+
+span.eduControl {
+    cursor: pointer;
+}
+
+.oecdLabel {
+    font-size: 16px;
+    color: #2B2D31;
+}
+
+text.eduHover { text-shadow: 1px 1px #6B707B; }
+
+div#education .xLabels {
+    font-style: italic;
+    color: #2B2D31;
+}
+
+/*survey chart*/
+div#surveys {
+    width: auto;
+    margin: 35px auto;
+}
+
+.surveyRectGroup .barText {
+    font-size: 12px;
+    font-weight: bold;
+    fill: white;
+    font-family: Arial;
+    text-shadow: 1px 1px #2B2D31;
+}
+
+div#surveyControls {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+div#surveyControls span {
+    margin-right: 16px;
+}
+
+span.surveyControl {
+    cursor: pointer;
+}
+
+div#surveyQuest {
+    margin: 0 auto;
+    height: 60px;
+    width: 750px;
+    font-size: 1.2em;
+}
+
+div#surveys .legend {
+    font-size: 1.1em;
+}
+
+div#surveys .surveyAttribution {
+    font-style: italic;
+}
+
+/*sex ratios*/
+div#sexRatio {
+    width: auto;
+    margin: 35px auto;
+    position: relative;
+}
+
+div.sexControls, div.boardControls {
+    position: absolute;
+    top: 30px;
+    background: white;
+    background: rgba(255,255,255,.9);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    color: #2B2D31;
+}
+
+div.sexControls { float:left; width: 300px; padding: 10px 16px 10px 25px; }
+
+div.sexCountries, div.sexLegend {
+    float: left;
+    width: 100%;
+}
+
+path.girlPath {
+    stroke: none;
+    fill: orange;
+}
+
+path.boyPath {
+    stroke: none;
+    fill: #B83834;
+}
+
+path.icon2 {
+    stroke: none;
+    fill: orange;
+}
+
+path.icon1 {
+    stroke: none;
+    fill: #B83834;
+}
+
+path.missingPath {
+    stroke: #E98125;
+    fill-opacity: 0;
+    stroke-width: 1;
+}
+
+div.sexLegend {
+    font-size: 1.2em;
+}
+
+div.sexLegend h3 {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul.countries, ul.boardChoices {
+    font-size: 1.2em;
+    list-style-type: none;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.legendSVG {
+    width: 15px;
+    height: 15px;
+}
+
+ul.countries li {
+    float: left;
+    display: inline;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+/*women in parliaments*/
+div#parliament {
+    width: 680px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div.parlSidebar {
+    float: right;
+    margin: 20px 50px 0px 0px;
+    width: 130px;
+}
+
+div.parlLegend ul {
+    font-size: 1.3em;
+    list-style-type: none;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+
+div.parlLegend li {
+    margin: 0;
+    padding: 0;
+}
+
+div.parlLegend a:hover { cursor: pointer; text-decoration: none; }
+
+ul.parlNotesUl {
+    color: #2B2D31;
+    list-style-type: none;
+    margin: 0px 0;
+    padding: 0;
+}
+
+ul.parlNotesUl li {
+    font-size: 1em;
+    font-style: italic;
+}
+
+/* board chart */
+div#board {
+    position:relative;
+}
+
+div.boardControls {
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    padding: 10px 20px;
+}
+
+ul.boardChoices li {
+    float: left;
+    display: inline;
+    width: 50%;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+div.boardLegend {
+    /*margin-top: 25px;*/
+    float:left;
+}
+
+div.boardLegend h3 {
+    /*margin-top: 25px;*/
+    margin: 8px 0px 2px 0px;
+}
+
+div.boardLegend li {
+    font-size: 14px;
+    display:inline;
+    margin-right: 20px;
+}

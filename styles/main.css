@@ -1,0 +1,232 @@
+#loader {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    padding: 15px 0;
+    opacity: 0.8;
+    background-color: hsl(122,50%,97%);
+    position:absolute;
+}
+
+#loader p {
+    font-size:1.3em;
+    line-height: 1.4em; }
+
+.loading {
+    display: none;
+}
+
+.loaded {
+    display: inline;
+}
+
+
+body {
+    background-color: hsl(122,50%,97%);
+}
+
+blockquote { margin:15px 40px; font-style: italic;}
+
+body,html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div#navWrap {
+    background-color: hsl(122,50%,97%);
+    position: fixed;
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    display:none;
+}
+
+div#nav {
+    position:relative;
+    left:50%;
+    float:left;
+    margin-left: -330px;
+}
+
+div#social { width:350px; margin:0px 12px; }
+div.fb-like { margin-right:25px; vertical-align:top; zoom:1; *display:inline; }
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav li { display: inline; margin: 0px 12px;}
+
+#container1 {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Enriqueta', serif;
+}
+
+#container2 {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Enriqueta', serif;
+}
+
+a {
+    color: #B83834;
+    text-decoration: none;
+}
+
+.active { color: #2B2D31;}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.text {
+    width: 660px;
+    color: #2B2D31;
+    margin: 0 auto;
+}
+
+.text p {
+    padding: 0px;
+    font-size: 1.1em;
+}
+
+div.bg-images {
+    position: relative;
+    width: auto;
+    background-repeat: no-repeat;
+    height: 800px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.bg-images h1 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 15%;
+    text-shadow: 2px 1px #2B2D31;
+    font-size: 8em;
+    color: hsl(122,50%,97%);
+}
+
+div#headline {
+    background-image: url('../images/woman-with-kids.jpg');
+    visibility: visible;
+}
+
+div#headlineWrap {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    right: 15%;
+    font-family: 'Enriqueta', serif;
+    display:none;
+}
+
+div#headline h2 {
+    text-shadow: 2px 1px #2B2D31;
+    font-size: 6em;
+    float:left;
+    margin-bottom:-30px;
+    color: hsl(122,50%,97%);
+}
+
+div#headline h3 {
+    text-shadow: 2px 1px #2B2D31;
+    font-size: 2em;
+    float:left;
+    color: hsl(122,50%,97%);
+}
+
+div#bg-image1 { background-image: url('/images/girls-in-school.jpg'); }
+div#bg-image2 { background-image: url('/images/women-nepal.jpg'); }
+div#bg-image3 { background-image: url('/images/wef.jpg'); }
+
+img.wide {
+    margin: 16px 0;
+    max-width: 100%;
+}
+
+.infobox,#return {
+    position: absolute;
+    float: none;
+    margin: 0;
+    background: white;
+    background: rgba(255,255,255,.9);
+
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.infobox {
+    padding: 6px 20px;
+    width: 300px;
+    line-height: 1em;
+}
+
+div.infobox h3 {
+    display: inline;
+}
+
+div.infobox sup {
+    vertical-align: top;
+    position: relative;
+    top: -0.3em;
+    font-size: 0.7em;
+}
+
+div#return {
+    width: auto;
+    text-align: center;
+    bottom: -4px;
+    width: 20%;
+    left: 50%;
+    margin: 0 0 0 -10%;
+}
+
+div#attribution {
+    padding: 0px;
+    color: #2B2D31;
+    font-size: 1em;
+    width: 660px;
+    margin: 100px auto;
+    clear:both;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #383838;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 7px rgba(30, 30, 30, 0.2);
+    -moz-box-shadow:    0px 0px 7px rgba(30, 30, 30, 0.2);
+    box-shadow:         0px 0px 7px rgba(30, 30, 30, 0.2);
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 30%;
+    left: -8px;
+}
