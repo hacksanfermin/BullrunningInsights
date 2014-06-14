@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Jorge Lavin Montoro (http://www.templates.lavinmontoro.com/)">
+	
+	<title>San Fermin: BullRuns Insights</title>
+
+	<!-- Bootstrap itself -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/sanfer.css">
+
+	<!-- Fonts -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+</head>
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="theme-invert">
+
+<nav class="mainmenu" id="wrapper">
+	<div class="container">
+		<div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li><a <a href="#head"><i class="glyphicon glyphicon-home"></i><br>Home</a>
+                </li>
+                <li><a href="#encierro"><img src="assets/images/bull_icon.png" class="glyphicon" /><br>Encierro</a>
+                </li>
+                <li><a href="#numbers"><i class="glyphicon glyphicon-stats"></i><br>Numbers</a>
+                </li>
+                <li><a href="#costs"><i class="glyphicon glyphicon-minus-sign"></i><br>Costs</a>
+                </li>
+                <li><a href="#contact"><i class="glyphicon glyphicon-envelope"></i><br>Contact</a>
+                </li>
+            </ul>
+        </div>
+	</div>
+</nav>
+
+
+
+
+<!-- Main (Home) section -->
+<section class="section" id="head">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
+
+				<!-- Site Title, your name, HELLO msg, etc. -->
+				<h1 class="title">San Fermín</h1>
+				<h2 class="subtitle">Welcome to San Fermines</h2>
+
+				<!-- Short introductory (optional) -->
+				<h3 class="tagline" style="text-align:center;">
+					The festival of San Fermín (or Sanfermines, Basque: Sanferminak) in the city of Pamplona (Navarre, Spain), is a deeply rooted celebration held annually from 12:00, 6 July, when the opening of the party is marked by setting off the pyrotechnic <i>chupinazo</i>, to midnight 14 July, with the singing of the <i>Pobre de Mí</i>. While its most famous event is the <i>encierro</i>, or the running of the bulls, which happens at 8:00 am from 7 July to 14 July, the week long celebration involves many other traditional and folkloric events.
+				</h3>
+				
+				<!-- Nice place to describe your site in a sentence or two -->
+				<p style="text-align:center;"><a href="#encierro" class="btn btn-default btn-lg">Show me more</a></p>
+	
+			</div> <!-- /col -->
+		</div> <!-- /row -->
+	
+	</div>
+</section>
+
+<!-- Second (About) section -->
+<section class="section" id="encierro">
+	<div class="container">
+	
+		<h2 class="text-center title">The Encierros</h2>
+		<div class="row">
+			<div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1">    
+				<h5><strong>Procedure<br></strong></h5>
+				<p>From July 7 to 14, at 8.00 am, a rocket is set off to alert the runners that the corral gate is open. Before that, a prayer has been given at a statue of Saint Fermín, patron of the festival, to ask the saint's protection.</p>
+				<p>A second rocket signals that all six bulls have been released. The third and fourth rockets are signals that all of the herd has entered the bullring and its corral respectively, marking the end of the event.</p>
+			</div>
+			<div class="col-md-5 col-lg-5">
+				<h5><strong>The bulls<br></strong></h5> 
+				<p>The herd is composed of the six bulls to be fought in the afternoon, six steers (castrated bulls) that run with the bulls, and three more steers that leave the corral two minutes later.</p>   
+				<p>The average speed of the bulls is 25 km/h and they weight around 550 Kg on average.</p>    
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-offset-2">
+				<h5><strong>The route<br></strong></h5>
+				<p>The length of the run is 826 meters. It goes through four streets of the old part of the city (Santo Domingo, Town Hall Square, Mercaderes and Estafeta) and a section called Telefónica before entering into the bullring. The circuit has only changed slightly since 1852 as the former bullring was located close to the present one. Before that date the bullrunning ended in the "castle plaza", still not far from the present bullring.</p>
+			</div>	
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
+				<div id="map_canvas"></div>	
+			</div>			
+		</div>
+	</div>
+</section>
+
+<!-- Third (Works) section -->
+<section class="section" id="numbers">
+	<div class="container">
+	
+		<h2 class="text-center title">Statistics</h2>
+		<p class="lead text-center">
+			The cost of San Fermín<br>
+		</p>
+
+		<div class="row">
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-offset-2 text-center">
+				<p>A 2011 survey among sanfermin runners yields very interesting results. Click on the selectors to start the visualization. 6% of the total 20,400 runners of that year's encierros took part in the survey.</p>
+				<iframe width="100%" height="700px" frameborder="0" src="/assets/stats.html"></iframe> 
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- Third (Works) section -->
+<section class="section" id="costs">
+	<div class="container">
+	
+		<h2 class="text-center title">The Cost</h2>
+		<p class="lead text-center">
+			The encierros in numbers<br>
+		</p>
+
+		<div class="row">
+
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-offset-2 text-center">
+				<p>A 2011 survey among sanfermin runners yields very interesting results. Click on the selectors to start the visualization. 6% of the total 20,400 runners of that year's encierros took part in the survey.</p>
+				<iframe width="100%" height="520px" frameborder="0" src="/assets/multiBarHorizontalChart.html"></iframe> 
+			</div>
+
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-offset-2 text-center">
+				<p>A 2011 survey among sanfermin runners yields very interesting results. Click on the selectors to start the visualization. 6% of the total 20,400 runners of that year's encierros took part in the survey.</p>
+				<iframe width="100%" height="520px" frameborder="0" src="/assets/multiBarVerticalChart.html"></iframe> 
+			</div>
+
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-offset-2 text-center">
+				<p>A 2011 survey among sanfermin runners yields very interesting results. Click on the selectors to start the visualization. 6% of the total 20,400 runners of that year's encierros took part in the survey.</p>
+				<iframe width="100%" height="520px" frameborder="0" src="/assets/discreteBarChart.html"></iframe> 
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
+<!-- Fourth (Contact) section -->
+<section class="section" id="contact">
+	<div class="container">
+	
+		<h2 class="text-center title">Get in touch</h2>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<p class="lead">Have a question or want to suggest a new feature?</p>
+				<p>Feel free to ask</p>
+				<p><b>koke1701@gmail.com</b><br><br></p>
+				<ul class="list-inline list-social">
+					<li><a href="https://twitter.com/koke0117" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+					<li><a href="https://github.com/navlin07/" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
+					<li><a href="https://www.linkedin.com/in/jorgelavinmontoro" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+				</ul>
+			</div>
+		</div>
+		<h2 class="text-center title">Statistics</h2>
+		<p class="lead text-center">
+			Huge thank you to all people who publish their photos<br>
+		</p>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail">
+					<img src="assets/images/img1.png" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="assets/images/img2.jpg" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail">
+					<img src="assets/images/img3.jpg" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="assets/images/img4.jpg" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+</section>
+
+
+<!-- Load js libs only when the page is loaded. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.custom.72241.js"></script>
+<!-- Custom template scripts -->
+<script src="assets/js/sanfer.js"></script>
+
+<script>
+  var map;
+  function initialize() {
+    var map_canvas = document.getElementById('map_canvas');
+    var map_options = {
+      center: new google.maps.LatLng(42.815180, -1.639688),
+      zoom: 16,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    map = new google.maps.Map(map_canvas, map_options);
+    google.maps.event.addListenerOnce(map, 'idle', function(){
+  	  $(window).resize();
+  	  google.maps.event.trigger(map, 'resize');
+  	  //map.setCenter(yourCoordinates);
+  	});
+
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+  $(window).resize(function() {
+    if ($("#map_canvas").children().length > 0){    
+        //resize();
+        if (map)
+        	var center = map.getCenter();
+        	google.maps.event.trigger(map, 'resize');
+        	map.setCenter(center);
+    }
+  });
+
+</script>
+
+</body>
+</html>
