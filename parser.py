@@ -1,8 +1,8 @@
 import json
 
-
 # Fecha;Ganaderia;Duracion;Heridos_asta;Traumatismos;Atendidos;Piso
 
+## VERTICAL
 # [
 #    {
 #       "values":[
@@ -22,6 +22,19 @@ import json
 #       "key":"Apples"
 #    },
 
+## HORIZONTAL
+# [ 
+#   {
+#     "key": "Series1",
+#     "color": "#d62728",
+#     "values": [
+#       { 
+#         "label" : "Group A" ,
+#         "value" : -1.8746444827653
+#       } ,
+
+vertical = False
+
 with open('asserts/encierros.csv') as f:
 
     first_line = f.readline().strip('\n')
@@ -39,11 +52,16 @@ with open('asserts/encierros.csv') as f:
         Atendidos = int(line[5])
         Piso = line[6]
 
+
+        #day = fecha.split('/')[0]
+        #year = int(day)
+        
         year = fecha.split('/')[2]
         if int(year) >= 15:
             year = "19" + year
         else:
             year = "20" + year
+        year = int(year)
 
         if year in mDict:
             mDict[year]['Heridos_asta'] += Heridos_asta
@@ -67,14 +85,22 @@ with open('asserts/encierros.csv') as f:
         "key": "Traumatismos"
     }
 
+    if vertical:
+        l1 = 'y'
+        l2 = 'x'
+    else:
+        l1 = "value"
+        l2 = "label"
+
     for key, value in mDict.items():
-        Atendidos['values'].append({'y': value['Atendidos'], 'x': key})
-        Traumatismos['values'].append({'y': value['Heridos_asta'], 'x': key})
-        Heridos_asta['values'].append({'y': value['Traumatismos'], 'x': key})
+        Atendidos['values'].append({l1: value['Atendidos'], l2: key})
+        Traumatismos['values'].append({l1: value['Heridos_asta'], l2: key})
+        Heridos_asta['values'].append({l1: value['Traumatismos'], l2: key})
+
 
     mList = [Atendidos, Traumatismos, Heridos_asta]
 
-    with open('asserts/encierros.json', 'wb') as fp:
+    with open('asserts/encierros_year_hor.json', 'wb') as fp:
         json.dump(mList, fp, sort_keys=True, indent=4, separators=(',', ': '))
 
 
