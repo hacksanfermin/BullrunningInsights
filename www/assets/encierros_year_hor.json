@@ -1,6 +1,6 @@
 [
     {
-        "key": "Atendidos",
+        "key": "First Aid",
         "values": [
             {
                 "label": 1980,
@@ -141,7 +141,7 @@
         ]
     },
     {
-        "key": "Traumatismos",
+        "key": "Traumatism",
         "values": [
             {
                 "label": 1980,
@@ -282,7 +282,7 @@
         ]
     },
     {
-        "key": "Heridos_asta",
+        "key": "Goring",
         "values": [
             {
                 "label": 1980,

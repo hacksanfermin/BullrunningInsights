@@ -1,6 +1,6 @@
 [
     {
-        "key": "Atendidos",
+        "key": "First Aid",
         "values": [
             {
                 "x": 7,
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "key": "Traumatismos",
+        "key": "Traumatism",
         "values": [
             {
                 "x": 7,
@@ -74,7 +74,7 @@
         ]
     },
     {
-        "key": "Heridos_asta",
+        "key": "Goring",
         "values": [
             {
                 "x": 7,
